@@ -8,7 +8,7 @@ import CreateBlog from "./pages/CreateBlog";
 import BlogDetails from "./pages/BlogDetails";
 import { Toaster } from "react-hot-toast";
 import axios from "axios";
-axios.defaults.baseURL="http://localhost:4000"
+axios.defaults.baseURL="https://blog-app-9i4l.onrender.com"
 function App() {
   return (
     <>
